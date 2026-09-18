@@ -12,7 +12,7 @@ NOTION_DATABASE_ID = os.environ.get("NOTION_DATABASE_ID")
 notion = Client(auth=NOTION_API_KEY)
 
 # 🔍 수집할 키워드 설정 (원하시는 키워드로 변경 가능)
-KEYWORD = "인공지능"
+KEYWORD = "MVNO"
 
 def save_to_notion(title, link, source):
     """노션 데이터베이스에 항목 추가"""
